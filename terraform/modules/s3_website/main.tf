@@ -40,7 +40,7 @@ resource "aws_s3_bucket_policy" "website_policy" {
       {
         Action    = ["s3:GetObject"],
         Effect    = "Allow",
-        Resource  = ["${aws_s3_bucket.website_buckket.arn}/*"],
+        Resource  = ["${aws_s3_bucket.website_bucket.arn}/*"],
         Principal = "*"
       },
     ]
