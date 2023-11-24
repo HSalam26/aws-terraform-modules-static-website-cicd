@@ -4,3 +4,7 @@ bucket_name = "terraform-state-bucket-hamza-salam"
 table_name = "terraform_state_locks"
 root_domain = "hamza-salam.click"
 dns_record_ttl = 300
+website_bucket = "hamza-salam.click"
+force_destroy = false
+index_document = "index.html"
+versioning_enabled = "Enabled"
