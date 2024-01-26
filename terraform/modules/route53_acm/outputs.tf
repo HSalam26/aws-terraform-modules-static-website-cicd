@@ -8,4 +8,8 @@ output "route53_zone_id" {
     value = data.aws_route53_zone.dns_zone.zone_id
   }
 
+output "root_domain" {
+  description = "root domain name of the website"
+  value = var.root_domain
+}
   
